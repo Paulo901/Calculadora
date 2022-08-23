@@ -76,6 +76,7 @@ public class Numeros {
 	}
 	// Essa operação Concatena os números numa string e converte para número
 	public void setGetnumero(String getnumero) {
+		
 		if(operações == null) {
 			this.getnumero = getnumero;
 			concatena += this.getnumero;
